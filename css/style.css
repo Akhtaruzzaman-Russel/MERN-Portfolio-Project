@@ -294,3 +294,87 @@ height: 466px;
 }
 /* ====== Services Section End Here ======= */
 
+
+/* ====== Resume Section start Here ======= */
+#resume{
+    background: #FFF5EF;
+    padding: 68px 0;
+}
+
+.resume_wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.resume_item .resume_title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #1E1E1E;
+}
+.resume_item_wrapper{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume_item .resume_card{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 30px 28px 30px 42px;
+    width: 424px;
+}
+
+.resume_item .resume_card h3{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+}
+.resume_item .resume_card span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#606060;
+    margin-top: 10px;
+    display: inline-block;
+}
+.resume_item .resume_card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #606060;
+    margin-top: 16px;
+}
+
+/* ====== Resume Section End Here ======= */
+
+
+/* ====== Portfolio Section Start Here ======= */
+#portfolio{
+margin: 130px 0;
+}
+.portf_wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+.portf_item{
+    width: 430px;
+    height: 514px;
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+
+.portf_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ====== Portfolio Section End Here ======= */
+
