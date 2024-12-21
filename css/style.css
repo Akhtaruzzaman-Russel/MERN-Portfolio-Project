@@ -483,6 +483,8 @@ margin: 130px 0;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .blog_items{
@@ -537,3 +539,53 @@ margin: 130px 0;
     gap: 10px;
 }
 /* ====== Blog Section End Here ======= */
+
+
+
+/* ====== Contact Section Start Here ======= */
+
+#contact{
+
+}
+
+.contact_wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form{
+    width: 872px;
+
+
+}
+
+.contact_info{
+    width: 388px;
+    height: 200px;
+    background-color: #e38383;
+}
+.input_group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.form_input{
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: 1px solid #FFE2D1;
+    width: 424px;
+    outline: none;
+    background: transparent;
+}
+.form_textarea{
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: 1px solid #FFE2D1;
+    height: 194px;
+    width: 100%;
+    background: transparent;
+    margin-top: 30px;
+}
+/* ====== Contact Section End Here ======= */
